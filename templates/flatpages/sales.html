@@ -1,0 +1,10 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h1>Только сегодня и только сейчас:</h1>
+    <span style="color: #ccffff;"><h3>{{ flatpage.content }} {{ flatpage.content }}</h3></span>
+{% endblock content %}
